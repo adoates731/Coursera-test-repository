@@ -1,5 +1,7 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 h1 {
   font-size: 175%;
@@ -9,6 +11,21 @@ h1 {
   margin-right: auto;
   margin-left: auto;
   color: white;
+}
+div#container1 {
+  background-color: ;
+  position: relative;
+  top: 55px;
+}
+div#container2 {
+  background-color: ;
+  position: relative;
+  top: 55px;
+}
+div#container3 {
+  background-color: ;
+  position: relative;
+  top: 55px;
 }
 section {
   background-color: gray;
