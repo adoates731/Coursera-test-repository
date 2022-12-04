@@ -1,5 +1,14 @@
-head {
+* {
+  box-sizing: border-box;
+}
+h1 {
   font-size: 175%;
+  margin-bottom: 15px;
+  width: 90%;
+  height: 150px;
+  margin-right: auto;
+  margin-left: auto;
+  color: white;
 }
 section {
   background-color: gray;
