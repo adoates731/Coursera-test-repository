@@ -79,7 +79,6 @@ p {
   }
   .col-lg-4 {
     width: 33.33%;  
-}
   }
   .col-lg-5 {
     width: 41.66%;
@@ -148,7 +147,6 @@ p {
     width: 91.66%;
   }
   .col-md-12 {
-    padding-top: -10px;
     width: 100%;
   }
 }
