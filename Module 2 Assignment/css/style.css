@@ -20,6 +20,7 @@ h2 {
 section #container {
   position: relative;
   top: 55px;
+  padding-top: 10px;
 }
 p {
   background-color: grey;
@@ -106,7 +107,6 @@ p {
   }
   .col-lg-12 {
     width: 100%;
-    padding: 10px;
   }
 }
 
@@ -152,7 +152,6 @@ p {
   }
   .col-md-12 {
     width: 100%;
-    padding: 10px;
   }
 }
 
@@ -199,6 +198,5 @@ p {
   }
   .col-sm-12 {
     width: 100%;
-    padding: 10px;
   }
 }
