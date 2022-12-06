@@ -28,7 +28,6 @@ p {
   height: 150px;
   margin-right: auto;
   margin-left: auto;
-  margin-bottom: auto;
   font-family: Helvetica;
   color: black;  
   font-weight: bold;
@@ -43,6 +42,7 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -53,6 +53,7 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -63,6 +64,7 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
+  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
