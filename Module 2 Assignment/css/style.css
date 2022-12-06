@@ -19,6 +19,7 @@ h2 {
 }
 section #container {
   position: relative;
+  padding: 15px;
   top: 55px;
 }
 p {
