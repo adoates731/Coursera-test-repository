@@ -44,6 +44,7 @@ p {
   padding-right: 25px;
   border: 1px solid black;
   position: absolute;
+  float: right;
   clear: both;
 }
 #p2 {
@@ -53,6 +54,7 @@ p {
   padding-right: 25px;
   border: 1px solid black;
   position: absolute;
+  float: right;
   clear: both;
 }
 #p3 {
@@ -62,6 +64,7 @@ p {
   padding-right: 25px;
   border: 1px solid black;
   position: absolute;
+  float: right;
   clear: both;
 }
 
