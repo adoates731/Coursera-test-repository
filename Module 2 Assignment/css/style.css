@@ -21,6 +21,7 @@ section #container {
   position: relative;
   padding: 15px;
   top: 55px;
+  clear: both;
 }
 p {
   background-color: grey;
@@ -35,6 +36,7 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 32px;
+  clear: both;
 }
 #p1 {
   background-color: #FFB6C1;
@@ -42,7 +44,6 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
-  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -53,7 +54,6 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
-  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -64,7 +64,6 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 25px;
-  margin-bottom: 50px;
   border: 1px solid black;
   position: absolute;
   clear: both;
