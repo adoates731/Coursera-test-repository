@@ -18,7 +18,7 @@ h2 {
 }
 section #container {
   position: relative;
-  padding: 15px;
+  padding: 25px;
   top: 55px;
 }
 p {
@@ -33,14 +33,14 @@ p {
   padding-top: 32px;
   padding-left: 15px;
   padding-right: 15px;
-  padding-bottom: 32px;
+  padding-bottom: 5px;
 }
 #p1 {
   background-color: #FFB6C1;
   color: black;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -50,7 +50,7 @@ p {
   color: white;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   border: 1px solid black;
   position: absolute;
   clear: both;
@@ -60,7 +60,7 @@ p {
   color: black;
   padding-left: 25px;
   padding-right: 25px;
-  padding-bottom: 25px;
+  padding-bottom: 5px;
   border: 1px solid black;
   position: absolute;
   clear: both;
