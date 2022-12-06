@@ -21,7 +21,6 @@ section #container {
   position: relative;
   padding: 15px;
   top: 55px;
-  clear: both;
 }
 p {
   background-color: grey;
@@ -36,7 +35,6 @@ p {
   padding-left: 15px;
   padding-right: 15px;
   padding-bottom: 32px;
-  clear: both;
 }
 #p1 {
   background-color: #FFB6C1;
