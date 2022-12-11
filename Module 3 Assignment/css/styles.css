@@ -62,7 +62,6 @@ body {
 /********** Large and Medium Devices **********/
 @media (min-width: 992px) {
   /* Home Page */
-  
 h2 {
   font-size: 120%;
   font-weight: bold;
@@ -111,7 +110,6 @@ p {
     padding-top: 10px;
     font-size: 5vw; /* 1vw = 1% of viewport width */
   }
-
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
   }
@@ -120,24 +118,5 @@ p {
     margin-right: 5px;
   }
   /* End Header */
-
   /* Home Page */
-  .container .jumbotron {
-    margin-top: 30px;
-    padding: 0;
-  }
-  #menu-tile, #specials-tile {
-    width: 360px;
-    margin: 0 auto 15px;
-  }
-
-  .menu-item-photo {
-    margin-right: auto;
-  }
-  .menu-item-tile .menu-item-price {
-    text-align: center;
-  }
-  .menu-item-description {
-    text-align: center;;
-  }
 }
