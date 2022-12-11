@@ -76,6 +76,7 @@ section #container {
   position: relative;
   padding: 25px;
   top: 55px;
+  background-color: #D0D3D4;
 }
 p {
   width: 100%;
@@ -96,7 +97,6 @@ p {
   padding-left: 25px;
   padding-right: 25px;
   padding-bottom: 5px;
-  border: 1px solid black;
   overflow: auto;
   position: absolute;
   clear: both;
