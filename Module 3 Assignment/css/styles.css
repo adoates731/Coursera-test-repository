@@ -59,7 +59,10 @@ body {
 }
 /* END HEADER */
 
-section #container {
+/********** Large and Medium Devices **********/
+@media (min-width: 992px) {
+  /* Home Page */
+  section #container {
   position: relative;
   padding: 25px;
   top: 55px;
@@ -88,14 +91,8 @@ p {
   position: absolute;
   clear: both;
 }
-
-/********** Large and Medium Devices **********/
-@media (min-width: 992px) {
-  /* Home Page */
-  
-  }
-  /* End Home Page */
 }
+  /* End Home Page */
 
 /********** Mobile Devices **********/
 @media (max-width: 991px) {
