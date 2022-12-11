@@ -8,7 +8,8 @@ body {
 
 /** HEADER **/
 #header-nav {
-  background-color: #E67E22;
+  background-color: #FF7F50;
+  color: #000000;
   border-radius: 0;
   border: 0;
 }
