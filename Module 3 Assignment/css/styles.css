@@ -66,14 +66,19 @@ h2 {
   font-size: 120%;
   font-weight: bold;
   text-align: center;
-}
-  section #container {
+  }
+h3 {
+  font-size: 100%;
+  font-weight: bold;
+  text-align: center;
+  }
+section #container {
   position: relative;
   padding: 25px;
   top: 55px;
 }
 p {
-  background-color: grey;
+  background-color: #D0D3D4;
   width: 100%;
   height: 150px;
   margin-right: auto;
