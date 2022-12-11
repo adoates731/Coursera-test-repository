@@ -29,9 +29,8 @@ body {
   font-weight: bold;
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 25px;
   line-height: .75;
-  padding: 25px;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
