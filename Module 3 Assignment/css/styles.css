@@ -59,9 +59,18 @@ body {
 }
 /* END HEADER */
 
+h2 {
+  
+
 /********** Large and Medium Devices **********/
 @media (min-width: 992px) {
   /* Home Page */
+  
+h2 {
+  font-size: 120%;
+  font-weight: bold;
+  text-align: center;
+}
   section #container {
   position: relative;
   padding: 25px;
