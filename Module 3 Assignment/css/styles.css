@@ -45,10 +45,10 @@ body {
 #nav-list a {
   color: #000000;
   text-align: center;
-  
+  background-color: #FFFFFF
 }
 #nav-list a:hover {
-  background: #FFFFFF;
+  background: #D0D3D4;
 }
 #nav-list a span {
   font-size: 1.8em;
