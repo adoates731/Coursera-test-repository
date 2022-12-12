@@ -35,11 +35,9 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
-
 #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
 }
-
 #nav-list {
   margin-top: 10px;
 }
