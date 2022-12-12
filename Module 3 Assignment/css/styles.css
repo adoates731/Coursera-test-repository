@@ -59,7 +59,7 @@ body {
 }
 /* END HEADER */
 
-/********** Large and Medium Devices **********/
+/********** Medium and Small Devices **********/
 @media (min-width: 992px) {
   /* Home Page */
 h2 {
