@@ -12,7 +12,7 @@ body {
   height: 1500px;
 }
 
-/** HEADER **/
+/* HEADER */
 #header-nav {
   background-color: #D0D3D4;
   border-radius: 0;
@@ -61,10 +61,7 @@ body {
   margin-top: -30px;
 }
 /* END HEADER */
-
-/********** Medium and Small Devices **********/
-@media (min-width: 992px) {
-  /* Home Page */
+/* BODY */
 h2 {
   font-size: 150%;
   font-weight: bold;
@@ -106,6 +103,11 @@ p {
   clear: both;
 }
 }
+/* END BODY */
+
+/********** Medium and Small Devices **********/
+@media (min-width: 992px) {
+  /* Home Page */
   /* End Home Page */
 
 /********** Mobile Devices **********/
