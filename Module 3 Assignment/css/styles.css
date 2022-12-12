@@ -43,7 +43,7 @@ body {
   margin-top: 10px;
 }
 #nav-list a {
-  color: #951C49;
+  color: #000000;
   text-align: center;
 }
 #nav-list a:hover {
@@ -79,6 +79,7 @@ section #container {
   position: relative;
   padding: 25px;
   top: 55px;
+  height: 1500px;
 }
 p {
   width: 100%;
