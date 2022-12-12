@@ -30,7 +30,7 @@ body {
   text-shadow: 1px 1px 1px #222;
   margin-top: 0;
   margin-bottom: 25px;
-  line-height: 1.25;
+  line-height: .75;
 }
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
@@ -118,10 +118,6 @@ p {
   }
   #collapsable-nav a { /* Collapsed nav menu text */
     font-size: 1.2em;
-  }
-  #collapsable-nav a span { /* Collapsed nav menu glyph */
-    font-size: 1em;
-    margin-right: 5px;
   }
   /* End Header */
   /* Home Page */
