@@ -83,7 +83,6 @@ document.addEventListener("DOMContentLoaded", function (event) {
 showLoading("#main-content");
 $ajaxUtils.sendGetRequest(
   allCategoriesUrl,
-  console.log("AllCategroiesURL" + allCategoriesUrl);
   buildAndShowHomeHTML, // ***** <---- TODO: STEP 1: Substitute [...] ******
   true); // Explicitly setting the flag to get JSON from server processed into an object literal
 });
@@ -97,8 +96,6 @@ function buildAndShowHomeHTML (categories) {
   // Load home snippet page
   $ajaxUtils.sendGetRequest(
     homeHtmlUrl,
-    console.log("homeHtmlUrl" + homeHtmlUrl);
-
     function (homeHtml) {
 
       // TODO: STEP 2: Here, call chooseRandomCategory, passing it retrieved 'categories'
@@ -107,7 +104,6 @@ function buildAndShowHomeHTML (categories) {
       // var chosenCategoryShortName = ....
       
       var chosenCategoryShortName = chooseRandomCategory(categories);
-      console.log("chosenCategoryShortName" + chosenCategoryShortName);
 
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
@@ -124,9 +120,7 @@ function buildAndShowHomeHTML (categories) {
       // var homeHtmlToInsertIntoMainPage = ....    homeHtml + chosenCategoryShortName + ".json"
 
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", chosenCategoryShortName);
-      console.log("randomCategoryShortName" + randomCategoryShortName);
-      console.log("chosenCategoryShortName" + chosenCategoryShortName);
-
+    
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
