@@ -104,7 +104,7 @@ function buildAndShowHomeHTML(categories) {
       // var chosenCategoryShortName = ....
       
       var chosenCategory = chooseRandomCategory(categories);
-      var chosenCategoryShortName = categories.short_name;
+      var chosenCategoryShortName = chosenCategory.short_name;
       // var chosenCategoryShortName = JSON.stringify(chosenCategoryShortName);
 
       // TODO: STEP 3: Substitute {{randomCategoryShortName}} in the home html snippet with the
@@ -118,16 +118,16 @@ function buildAndShowHomeHTML(categories) {
       // Hint: you need to surround the chosen category short name with something before inserting
       // it into the home html snippet.
       
-      // var chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
-      // var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", 'L');
+      var chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
+      var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'"+chosenCategoryShortName+"'");
       
-      homeHtml.randomCategoryShortName='L';
-      
+  
       // TODO: STEP 4: Insert the produced HTML in STEP 3 into the main page
       // Use the existing insertHtml function for that purpose. Look through this code for an example
       // of how to do that.
       // ....
 
+      
       insertHtml("#main-content", homeHtmlToInsertIntoMainPage);
     },
     false); // False here because we are getting just regular HTML from the server, so no need to process JSON.
@@ -158,7 +158,7 @@ dc.loadMenuCategories = function () {
 dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    menuItemsUrl + categoryShort + ".json",
+    menuItemsUrl + "L" + ".json",
     buildAndShowMenuItemsHTML);
 };
 
