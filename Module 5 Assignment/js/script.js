@@ -158,7 +158,7 @@ dc.loadMenuCategories = function () {
 dc.loadMenuItems = function (categoryShort) {
   showLoading("#main-content");
   $ajaxUtils.sendGetRequest(
-    menuItemsUrl + "L" + ".json",
+    menuItemsUrl + categoryShort + ".json",
     buildAndShowMenuItemsHTML);
 };
 
