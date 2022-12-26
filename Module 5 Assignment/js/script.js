@@ -103,8 +103,8 @@ function buildAndShowHomeHTML(categories) {
       // variable's name implies it expects.
       // var chosenCategoryShortName = ....
       
-      // var chosenCategory = chooseRandomCategory(categories);
-      // var chosenCategoryShortName = chosenCategory.short_name;
+      chooseRandomCategory(categories);
+      var chosenCategoryShortName = categories.short_name;
       // var chosenCategoryShortName = JSON.stringify(chosenCategoryShortName);
       // var chosenCategoryShortName = "'" + chosenCategoryShortName + "'";
 
